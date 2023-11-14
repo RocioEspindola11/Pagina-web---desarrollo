@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Página Web</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"/>
+  </head>
+  <body>
+    <div class="conteiner-gene">
+      <header>
+        <div class="container dflex-navbar">
+          <img src="img/logoo.png" alt="logo" width="64" title="Logo"/>
+
+          <nav>
+            <ul>
+              <li><a href="#">INICIO</a></li>
+              <li><a href="#nosotros">NOSOTROS</a></li>
+              <li><a href="#productos">PRODUCTOS</a></li>
+              <li><a href="#galería">GALERÍA</a></li>
+              <li><a href="#contacto">CONTACTO</a></li>
+              <li>
+                <a href="#Login" class="nav-item boton-registrarse">Login</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="intro-section">
+        <div class="container2 dflex-intro">
+          <div class="intro-text">
+            <h1>
+              El lugar ideal<span class="break-line"></span>para tu
+              <span class="break-line"></span>mascota.
+            </h1>
+            <p>
+              Petique's es tu destino de moda
+              <span class="break-line"></span> exclusivo para mimar a tus
+              <span class="break-line">compañeros peludos con estilo.</span>
+            </p>
+            <a href="#productos" class="boton-cta-intro">Ver productos</a>
+          </div>
+          <div class="intro-image"></div>
+        </div>
+      </section>
+
+      <section id="nosotros">
+        <section class="nosotros">
+          <div class="main">
+            <img src="img/perro-fotointro.png" alt="Imagenintroperro"/>
+            <div class="nosotros-text">
+              <h2>Nosotros</h2>
+              <h5>¿Quienes <span>Somos?</span></h5>
+              <p>
+                Petique's es la esencia del lujo para tus mascotas. Ofrecemos
+                productos de alta calidad que reflejan sofisticación y estilo,
+                convirtiendo cada momento en una experiencia glamurosa. Desde
+                collares de diseñador hasta accesorios únicos, en Petique's, el
+                glamour es una forma de vida para tus mascotas.
+              </p>
+              <button type="button">Saber más+</button>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <section id="productos" class="container-productos">
+      <h2>Productos Exclusivos</h2>
+      <div class="dflex2">
+        <article>
+          <a href="img/Camitas-foto.jpg" target="_blank">
+            <figure class="img-container">
+              <img src="img/Camitas-foto.jpg" alt="Prod1-Camitas" />
+              <figcaption>Ver imagen ampliada</figcaption>
+            </figure>
+          </a>
+          <h3>Camita para Perros</h3>
+          <p>Descanso Pleno para tu Compañero Peludo</p>
+          <p class="price">$10.000</p>
+          <button type="button">Agregar al carrito</button>
+        </article>
+
+        <article>
+          <a href="img/comederos-foto.jpg" target="_blank">
+            <figure class="img-container">
+              <img src="img/comederos-foto.jpg" alt="Prod2-Tarros" />
+              <figcaption>Ver imagen ampliada</figcaption>
+            </figure>
+          </a>
+          <h3>Comederos</h3>
+          <p>Elegancia y Nutrición</p>
+          <p class="price">$8.500</p>
+          <button type="button">Agregar al carrito</button>
+        </article>
+
+        <article>
+          <a href="img/juguetitos-foto.jpg" target="_blank">
+            <figure class="img-container">
+              <img src="img/juguetitos-foto.jpg" alt="Prod3-Juguetes" />
+              <figcaption>Ver imagen ampliada</figcaption>
+            </figure>
+          </a>
+          <h3>Juguetes para gatos</h3>
+          <p>Diversión Infinita y Estimulación Mental</p>
+          <p class="price">$6.700</p>
+          <button type="button">Agregar al carrito</button>
+        </article>
+
+        <article>
+          <a href="img/Accesorios-foto.jpg" target="_blank">
+            <figure class="img-container">
+              <img src="img/Accesorios-foto.jpg" alt="Prod4-Accesorios" />
+              <figcaption>Ver imagen ampliada</figcaption>
+            </figure>
+          </a>
+          <h3>Accesorios</h3>
+          <p>Comodidad para tus Compañeros Peludos</p>
+          <p class="price">$14.500</p>
+          <button type="button">Agregar al carrito</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="galería" class="container-galeria">
+      <h2>Galería de Imagenes</h2>
+      <div class="galeria-dflex">
+        <img
+          class="img-galeria"
+          src="img/Perro-amarillo.jpg"
+          alt="perrito-amarillo"
+        />
+        <img
+          class="img-galeria"
+          src="img/Perro-violeta.jpg"
+          alt="perrito-violeta"
+        />
+        <img
+          class="img-galeria"
+          src="img/Perro-verde.jpg"
+          alt="perrito-verde"
+        />
+        <img
+          class="img-galeria"
+          src="img/gato-celeste.jpg"
+          alt="gatito-celeste"
+        />
+        <img
+          class="img-galeria"
+          src="img/Perro-naranja.jpg"
+          alt="perrito-naranja"
+        />
+        <img class="img-galeria" src="img/perro-azul.jpg" alt="perrito-azul" />
+      </div>
+    </section>
+
+    <section id="contacto" class="container-contacto">
+      <div class="Textos">
+        <h2>Contacto</h2>
+        <p>Ponete en contacto con nosotros ante cualquier duda.</p>
+        <a href="#" class="Botón-CTA2">Envíanos un mail</a>
+      
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26286.88098209863!2d-58.47152401801667!3d-34.557096819070544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d3ea07df93%3A0x947b5150d5a5bda4!2sBarrio%20Chino%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1699720509999!5m2!1ses-419!2sar"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <div class="container-login">
+      <h2>Login</h2>
+
+      <form action="/procesar-formulario" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required />
+
+        <div class="btn-iniciarSesion">
+          <button type="submit" class="btn-Iniciar-Sesion">
+            Iniciar Sesión
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div>
+      <footer class="container-footer">
+        <div class="direccion">
+          <h3>Dirección:</h3>
+          <p>Asunción 4183. Local 24.</p>
+          <p>Whatsapp: 11-6667-8888</p>
+          <p>Mail: contacto@gamerlove.com</p>
+        </div>
+
+        <div class="enlaces">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Mercado Pago</a></li>
+          </ul>
+        </div>
+
+        <div class="redes-sociales">
+          <h3>Síguenos en</h3>
+          <div class="logos">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="img/instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="img/Facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://www.TikTok.com/" target="_blank">
+              <img src="img/tik-tok.png" alt="TikTok" />
+          </a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 Petique´s. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+    </div>
+
+
+
+
+
+    </div>
+      
+  </body>
+</html>
